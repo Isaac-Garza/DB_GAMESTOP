@@ -126,23 +126,22 @@ values
 (19,"772 Ramsey Parkway","Lynchburg","Virginia",24515),
 (20,"2149 Pankratz Way","Washington","District of Columbia",20005);
 
-
-
 insert into accessories (accessory_id,accessory_condition,access_name,access_price,platform_id)
 values
-(1,1,"''Playstation 4 Controller Dual Shock''","64.99",2),
-(2,3,"''Playstation 4 Controller Dual Shock Used''","52.99",2),
-(3,1,"''PS4 External Game Drive 2TB ''","89.99",2),
-(4,1,"''Cloud Stinger Wired Gaming Headset''","49.99",2),
-(5,1,"''Xbox One Controller''","79.89",1),
-(6,2,"''Xbox One Controller''","49.99",1),
-(7,1,"''Stealth 600 Gaming Headset''","99.99",1),
-(8,1,"''Xbox One Portable Game Drive 2TB''","89.99",1),
-(9,1,"''Xbox One AC Power Adapter''","49.99",1),
-(10,1,"''Nintendo Switch Joy Controller''","79.99",3),
-(11,2,"''Nintendo Switch Wireless Pro Controller''","54.99",3),
-(12,1,"''Nintendo Switch Racing Wheel''","12.99",3),
-(13,1,"''LVL40 Wired Gaming Headset''","29.99",3),
-(14,1,"''Nintedo Switch Gaming Case''","29.99",3),
-(15,1,"''Nintendo Switch HDMI Dock''","39.99",3),
-(16,1,"''Micro SD Card 64GB for Nintendo Switch''","16.99",3);
+(1,1,"Playstation 4 Controller Dual Shock","64.99",2),
+(2,3,"Playstation 4 Controller Dual Shock Used","52.99",2),
+(3,1,"PS4 External Game Drive 2TB ","89.99",2),
+(4,1,"Cloud Stinger Wired Gaming Headset","49.99",2),
+(5,1,"Xbox One Controller","79.89",1),
+(6,2,"Xbox One Controller","49.99",1),
+(7,1,"Stealth 600 Gaming Headset","99.99",1),
+(8,1,"Xbox One Portable Game Drive 2TB","89.99",1),
+(9,1,"Xbox One AC Power Adapter","49.99",1),
+(10,1,"Nintendo Switch Joy Controller","79.99",3),
+(11,2,"Nintendo Switch Wireless Pro Controller","54.99",3),
+(12,1,"Nintendo Switch Racing Wheel","12.99",3),
+(13,1,"LVL40 Wired Gaming Headset","29.99",3),
+(14,1,"Nintedo Switch Gaming Case","29.99",3),
+(15,1,"Nintendo Switch HDMI Dock","39.99",3),
+(16,1,"Micro SD Card 64GB for Nintendo Switch","16.99",3);
+
