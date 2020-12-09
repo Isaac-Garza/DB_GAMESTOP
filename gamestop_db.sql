@@ -48,8 +48,8 @@ create table consoles(
 create table accessories(
 	accessory_id int PRIMARY KEY,
     accessory_condition int,
-    acess_name varchar(32),
-    acess_price float,
+    access_name varchar(64),
+    access_price float,
     platform_id int,
 	FOREIGN KEY(platform_id) references platforms(platform_id),
     FOREIGN KEY (accessory_condition) references conditions(condition_id)
@@ -57,7 +57,7 @@ create table accessories(
 
 create table merchandise(
 	merchandise_id int PRIMARY KEY,
-    merchandise_name varchar(32),
+    merchandise_name varchar(64),
     price float
 )ENGINE = InnoDB; 
 
@@ -103,7 +103,7 @@ create table rewards_type(
 )ENGINE = InnoDB; 
 
 create table reward_member(
-	member_id varchar(64) PRIMARY KEY,
+	member_id int PRIMARY KEY,
     first_name varchar(32),
     middle_name varchar(32),
     last_name varchar(32),
@@ -116,7 +116,7 @@ create table reward_member(
 
 create table orders(
 	order_id int PRIMARY KEY,
-    member_id varchar(64),
+    member_id int,
     order_date date,
     total_price float,
     FOREIGN KEY(member_id) references reward_member(member_id)
@@ -125,10 +125,9 @@ create table orders(
 create table order_line(
 	line_number int PRIMARY KEY,
     order_id int,
-    cost_per_product float,
+    cost_per_product double,
     order_quantity int,
     serial_id varchar(11),
-    order_type varchar(10),
     FOREIGN KEY(serial_id) references serial_code(serial_id),
     FOREIGN KEY(order_id) references orders(order_id)
 )ENGINE = InnoDB; 
