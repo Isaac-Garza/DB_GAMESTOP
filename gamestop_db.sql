@@ -4,7 +4,7 @@ use gamestop;
 
 create table conditions(
 	condition_id int PRIMARY KEY,
-    condition_type varchar(10),
+    condition_type varchar(64),
     reduction_cost float
 )ENGINE = InnoDB; 
 
