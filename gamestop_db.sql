@@ -103,7 +103,7 @@ create table rewards_type(
 )ENGINE = InnoDB; 
 
 create table reward_member(
-	member_id int PRIMARY KEY,
+	member_id varchar(64) PRIMARY KEY,
     first_name varchar(32),
     middle_name varchar(32),
     last_name varchar(32),
@@ -116,7 +116,7 @@ create table reward_member(
 
 create table orders(
 	order_id int PRIMARY KEY,
-    member_id int,
+    member_id varchar(64),
     order_date date,
     total_price float,
     FOREIGN KEY(member_id) references reward_member(member_id)
