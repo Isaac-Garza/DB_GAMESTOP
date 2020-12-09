@@ -11,7 +11,6 @@ create table conditions(
 create table platforms(
 	platform_id int PRIMARY KEY,
 	platform_name varchar(32),
-	platform_version int
 )ENGINE = InnoDB; 
 
 create table publisher(
