@@ -32,7 +32,7 @@ create table game_titles(
 	game_condition int,
 	game_publisher int,
     FOREIGN KEY (game_condition) references conditions(condition_id),
-	FOREIGN KEY(game_publisher) references publisher(platform_id)
+	FOREIGN KEY(game_publisher) references publisher(game_publisher_id)
 )ENGINE = InnoDB; 
 
 create table consoles(
