@@ -10,12 +10,12 @@ create table conditions(
 
 create table platforms(
 	platform_id int PRIMARY KEY,
-	platform_name varchar(32),
+	platform_name varchar(32)
 )ENGINE = InnoDB; 
 
 create table publisher(
 	game_publisher_id int PRIMARY KEY,
-	publisher_name varchar(32),
+	publisher_name varchar(64),
     platform_id int,
     FOREIGN KEY(platform_id) references platforms (platform_id)
 )ENGINE = InnoDB; 
