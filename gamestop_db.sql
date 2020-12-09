@@ -84,7 +84,7 @@ create table employee(
 )ENGINE = InnoDB; 
 
 create table serial_code(
-	serial_id int PRIMARY KEY,
+	serial_id varchar(11) PRIMARY KEY,
     product_id int,
     store_id int,
     FOREIGN KEY(store_id) references store_number(store_id),
@@ -127,7 +127,7 @@ create table order_line(
     order_id int,
     cost_per_product float,
     order_quantity int,
-    serial_id int,
+    serial_id varchar(11),
     order_type varchar(10),
     FOREIGN KEY(serial_id) references serial_code(serial_id),
     FOREIGN KEY(order_id) references orders(order_id)

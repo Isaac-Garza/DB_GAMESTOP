@@ -41,13 +41,14 @@
 -- (9,"Super Smash Bros",5,"Fighting","2018-12-07","Everyone",59.95,1,2),
 -- (10,"Animal Crossing",5,"RPG","2020-03-20","Everyone",56.99,1,2);
 
-console_id,console_name,console_price,platform_id,console_condition
-(1,"Xbox One X",499,1,4),
-(2,"Playstation 4",299,2,2),
-(3,"Playstation 5",499,2,1),
-(4,"Nintendo Switch",299,3,1),
-(5,"Playstation 4 Pro",399,2,3),
-(6,"Xbox Series X",499,1,1),
-(7,"Xbox Series S",299,1,2),
-(8,"Xbox One S",359,1,1),
-(9,"Nintendo Switch Lite",199,3,3);
+-- insert into `consoles` (console_id,console_name,console_price,platform_id,console_condition) values
+-- (1,"Xbox One X",499,1,4),
+-- (2,"Playstation 4",299,2,2),
+-- (3,"Playstation 5",499,2,1),
+-- (4,"Nintendo Switch",299,3,1),
+-- (5,"Playstation 4 Pro",399,2,3),
+-- (6,"Xbox Series X",499,1,1),
+-- (7,"Xbox Series S",299,1,2),
+-- (8,"Xbox One S",359,1,1),
+-- (9,"Nintendo Switch Lite",199,3,3);
+
