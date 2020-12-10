@@ -58,17 +58,17 @@ insert into `rewards_type` (reward_id, discount, rewards_multiplier, trade_credi
 (3,27,60,1.83);
 
 
-insert into `reward_member` (member_id, first_name,middle_name, last_name,email,telephone,member_tier, reward_points) values
-(1,"Otes","Dur","Geraghty","dgeraghty0@weather.com",237-818-9764,3,1258),
-(2,"Sherill","Taber","Ong","tong1@si.edu",146-653-4903,1,348),
-(3,"Forrester","Delano","Lingley","dlingley2@latimes.com",170-916-8596,3,499),
-(4,"Keriann","Crosby","Vasyatkin","cvasyatkin3@yahoo.co.jp",539-625-0109,2,91),
-(5,"Lynde","Germain","Moyser","gmoyser4@github.io",549-139-4806,1,802),
-(6,"Marlene","Andres","Cardello","acardello5@dagondesign.com",765-922-9737,1,195),
-(7,"Kahaleel","Langsdon","Ruddoch","lruddoch6@technorati.com",749-726-4669,1,226),
-(8,"Sancho","Herculie","Sillitoe","hsillitoe7@drupal.org",296-333-5031,3,154),
-(9,"Foss","Hanson","Dominighi","hdominighi8@java.com",758-723-8538,2,482),
-(10,"Charmane","Thaxter","Clayhill","tclayhill9@blogtalkradio.com",836-298-8996,2,454);
+insert into `reward_member` (member_id, first_name,middle_name, last_name,telephone,email,member_tier, reward_points) values
+(1,"Otes","Dur","Geraghty","237-818-9764","dgeraghty0@weather.com",3,1258),
+(2,"Sherill","Taber","Ong","146-653-4903","tong1@si.edu",1,348),
+(3,"Forrester","Delano","Lingley","170-916-8596","dlingley2@latimes.com",3,499),
+(4,"Keriann","Crosby","Vasyatkin","539-625-0109","cvasyatkin3@yahoo.co.jp",2,91),
+(5,"Lynde","Germain","Moyser","549-139-4806","gmoyser4@github.io",1,802),
+(6,"Marlene","Andres","Cardello","765-922-9737","acardello5@dagondesign.com",1,195),
+(7,"Kahaleel","Langsdon","Ruddoch","749-726-4669","lruddoch6@technorati.com",1,226),
+(8,"Sancho","Herculie","Sillitoe","296-333-5031","hsillitoe7@drupal.org",3,154),
+(9,"Foss","Hanson","Dominighi","758-723-8538","hdominighi8@java.com",2,482),
+(10,"Charmane","Thaxter","Clayhill","836-298-8996","tclayhill9@blogtalkradio.com",2,454);
 
 insert into employee (employee_id,first_name,middle_name,last_name,telephone,position,email,address)
 values
