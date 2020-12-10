@@ -70,19 +70,6 @@ insert into `reward_member` (member_id, first_name,middle_name, last_name,teleph
 (9,"Foss","Hanson","Dominighi","758-723-8538","hdominighi8@java.com",2,482),
 (10,"Charmane","Thaxter","Clayhill","836-298-8996","tclayhill9@blogtalkradio.com",2,454);
 
-insert into employee (employee_id,first_name,middle_name,last_name,telephone,position,email,address,store_id)
-values
-(1,"Jamison","Verla","McCullogh",7818237879,"Store Manager","vmccullogh0@odnoklassniki.ru","1876 Gerald Avenue",2),
-(2,"Leola","Lindie","Syphus",6634990220,"Cashier","lsyphus1@wired.com","3878 Browning Parkway",2),
-(3,"Bjorn","Millicent","Durgan",4329261006,"Cashier","mdurgan2@altervista.org","06225 Texas Court",1),
-(4,"Cory","Joellyn","Kempson",9682302013,"Cashier","jkempson3@msn.com","9 Crest Line Trail",1),
-(5,"Pammy","Elmore","Ingle",8347586632,"Cashier","eingle4@who.int","1804 Moulton Circle",4),
-(6,"Patty","Alexia","McKea",2912670314,"Cashier","amckea5@cnbc.com","230 Ramsey Plaza",5),
-(7,"Yovonnda","Joanna","Godlee",3984971257,"Cashier","jgodlee6@elpais.com","411 Stuart Place",5),
-(8,"Renell","Lucie","Nobles",135070619,"Cashier","lnobles7@deliciousdays.com","83077 Mariners Cove Junction",11),
-(9,"Loleta","Gaven","Lyon",969081731,"Cashier","glyon8@e-recht24.de","994 Nelson Crossing",14),
-(10,"Katharine","Silvan","Petrina",6095512999,"Stock","spetrina9@google.de","3360 Milwaukee Way",16);
-
 insert into store_number (store_id,store_address,city,state,postal_code)
 values
 (1,"7337 Welch Alley","Flint","Michigan",48555),
@@ -105,6 +92,20 @@ values
 (18,"7699 Sauthoff Road","Toledo","Ohio",43699),
 (19,"772 Ramsey Parkway","Lynchburg","Virginia",24515),
 (20,"2149 Pankratz Way","Washington","District of Columbia",20005);
+
+insert into employee (employee_id,first_name,middle_name,last_name,telephone,position,email,address,store_id)
+values
+(1,"Jamison","Verla","McCullogh",7818237879,"Store Manager","vmccullogh0@odnoklassniki.ru","1876 Gerald Avenue",1),
+(2,"Leola","Lindie","Syphus",6634990220,"Cashier","lsyphus1@wired.com","3878 Browning Parkway",1),
+(3,"Bjorn","Millicent","Durgan",4329261006,"Cashier","mdurgan2@altervista.org","06225 Texas Court",4),
+(4,"Cory","Joellyn","Kempson",9682302013,"Cashier","jkempson3@msn.com","9 Crest Line Trail",5),
+(5,"Pammy","Elmore","Ingle",8347586632,"Cashier","eingle4@who.int","1804 Moulton Circle",6),
+(6,"Patty","Alexia","McKea",2912670314,"Cashier","amckea5@cnbc.com","230 Ramsey Plaza",8),
+(7,"Yovonnda","Joanna","Godlee",3984971257,"Cashier","jgodlee6@elpais.com","411 Stuart Place",12),
+(8,"Renell","Lucie","Nobles",135070619,"Cashier","lnobles7@deliciousdays.com","83077 Mariners Cove Junction",14),
+(9,"Loleta","Gaven","Lyon",969081731,"Cashier","glyon8@e-recht24.de","994 Nelson Crossing",17),
+(10,"Katharine","Silvan","Petrina",6095512999,"Stock","spetrina9@google.de","3360 Milwaukee Way",5);
+
 
 insert into `orders` (order_id,member_id,order_date,total_price) values
 (1,1,"2020-03-20 14:53:36","14.65"),
