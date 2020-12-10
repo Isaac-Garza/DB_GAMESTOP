@@ -10,4 +10,4 @@ CREATE PROCEDURE `sp_employee_at_store` (IN store_ident INT)
         WHERE store_id = store_ident;
 END//
 
-CALL sp_employee_at_store(2);
+CALL sp_employee_at_store(1);
