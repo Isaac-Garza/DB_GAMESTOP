@@ -55,7 +55,7 @@ insert into `consoles` (console_id,console_name,console_price,platform_id,consol
 insert into `rewards_type` (reward_id, discount, rewards_multiplier, trade_credit) values
 (1,29,33,4.72),
 (2,32,86,6.12),
-(3,27,60,1.83),
+(3,27,60,1.83);
 
 
 insert into `reward_member` (member_id, first_name,middle_name, last_name,email,telephone,member_tier, reward_points) values
