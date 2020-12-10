@@ -55,33 +55,20 @@ insert into `consoles` (console_id,console_name,console_price,platform_id,consol
 insert into `rewards_type` (reward_id, discount, rewards_multiplier, trade_credit) values
 (1,29,33,4.72),
 (2,32,86,6.12),
-(3,27,60,1.83),
-(4,26,74,3.05),
-(5,5,6,6.90),
-(6,54,59,5.31),
-(7,33,32,2.71),
-(8,9,67,7.53),
-(9,9,91,4.39),
-(10,32,88,0.87),
-(11,39,61,1.73),
-(12,52,37,3.76),
-(13,7,87,1.30),
-(14,24,20,6.83),
-(15,24,99,2.58),
-(16,58,89,1.60),
-(17,27,48,4.31);
+(3,27,60,1.83);
 
-insert into `reward_member` (member_id, first_name,middle_name, last_name,email,telephone,reward_points) values
-(1,"Otes","Dur","Geraghty","dgeraghty0@weather.com",237-818-9764,258),
-(2,"Sherill","Taber","Ong","tong1@si.edu",146-653-4903,348),
-(3,"Forrester","Delano","Lingley","dlingley2@latimes.com",170-916-8596,499),
-(4,"Keriann","Crosby","Vasyatkin","cvasyatkin3@yahoo.co.jp",539-625-0109,91),
-(5,"Lynde","Germain","Moyser","gmoyser4@github.io",549-139-4806,802),
-(6,"Marlene","Andres","Cardello","acardello5@dagondesign.com",765-922-9737,195),
-(7,"Kahaleel","Langsdon","Ruddoch","lruddoch6@technorati.com",749-726-4669,226),
-(8,"Sancho","Herculie","Sillitoe","hsillitoe7@drupal.org",296-333-5031,154),
-(9,"Foss","Hanson","Dominighi","hdominighi8@java.com",758-723-8538,482),
-(10,"Charmane","Thaxter","Clayhill","tclayhill9@blogtalkradio.com",836-298-8996,454);
+
+insert into `reward_member` (member_id, first_name,middle_name, last_name,telephone,email,member_tier, reward_points) values
+(1,"Otes","Dur","Geraghty","237-818-9764","dgeraghty0@weather.com",3,1258),
+(2,"Sherill","Taber","Ong","146-653-4903","tong1@si.edu",1,348),
+(3,"Forrester","Delano","Lingley","170-916-8596","dlingley2@latimes.com",3,499),
+(4,"Keriann","Crosby","Vasyatkin","539-625-0109","cvasyatkin3@yahoo.co.jp",2,91),
+(5,"Lynde","Germain","Moyser","549-139-4806","gmoyser4@github.io",1,802),
+(6,"Marlene","Andres","Cardello","765-922-9737","acardello5@dagondesign.com",1,195),
+(7,"Kahaleel","Langsdon","Ruddoch","749-726-4669","lruddoch6@technorati.com",1,226),
+(8,"Sancho","Herculie","Sillitoe","296-333-5031","hsillitoe7@drupal.org",3,154),
+(9,"Foss","Hanson","Dominighi","758-723-8538","hdominighi8@java.com",2,482),
+(10,"Charmane","Thaxter","Clayhill","836-298-8996","tclayhill9@blogtalkradio.com",2,454);
 
 insert into employee (employee_id,first_name,middle_name,last_name,telephone,position,email,address)
 values
